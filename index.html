@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Berita</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Frontend/styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">Portal Berita</div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Beranda</a></li>
+                    <li><a href="#">Nasional</a></li>
+                    <li><a href="#">Internasional</a></li>
+                    <li><a href="#">Ekonomi</a></li>
+                    <li><a href="#">Olahraga</a></li>
+                    <li><a href="#">Teknologi</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Berita Terbaru dan Terpercaya</h1>
+            <p>Temukan informasi terkini dari berbagai penjuru dunia</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Cari berita..." id="search-input">
+                <button id="search-button">Cari</button>
+            </div>
+        </div>
+    </section>
+    
+    <div class="container">
+        <section class="breaking-news">
+            <div class="breaking-news-content">
+                <span class="breaking-label">BREAKING</span>
+                <div class="breaking-text" id="breaking-text">
+                    Gempa bumi berkekuatan 6,2 magnitudo mengguncang wilayah timur negara — Vaksin Covid-19 baru telah mendapatkan izin penggunaan darurat — Perundingan damai antara dua negara yang bertikai mencapai kemajuan signifikan
+                </div>
+            </div>
+        </section>
+        
+        <main>
+            <div class="category-filter">
+                <button class="category-btn active" data-category="Semua">Semua</button>
+                <button class="category-btn" data-category="Nasional">Nasional</button>
+                <button class="category-btn" data-category="Internasional">Internasional</button>
+                <button class="category-btn" data-category="Ekonomi">Ekonomi</button>
+                <button class="category-btn" data-category="Olahraga">Olahraga</button>
+                <button class="category-btn" data-category="Teknologi">Teknologi</button>
+                <button class="category-btn" data-category="Hiburan">Hiburan</button>
+            </div>
+            
+            <div class="news-grid" id="news-grid">
+                <!-- Berita akan ditampilkan di sini oleh JavaScript -->
+            </div>
+            
+            <button class="load-more" id="load-more">Muat Lebih Banyak</button>
+        </main>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tentang Kami</h3>
+                    <p>Merupakan tugas Pweb mengenari Portal Berita yang merupakan sumber informasi terpercaya yang menyajikan berita-berita terkini dari dalam dan luar negeri.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Kategori</h3>
+                    <ul>
+                        <li><a href="#">Nasional</a></li>
+                        <li><a href="#">Internasional</a></li>
+                        <li><a href="#">Ekonomi</a></li>
+                        <li><a href="#">Olahraga</a></li>
+                        <li><a href="#">Teknologi</a></li>
+                        <li><a href="#">Hiburan</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Hubungi Kami</h3>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/imam-muhammad-diponegoro-7291b5289/">Email: emailSaya@gmail.com</a></li>
+                        <li><a href="https://www.linkedin.com/in/imam-muhammad-diponegoro-7291b5289/">Telepon: 0xxx-xxxx-xxxx</a></li>
+                        <li><a href="https://www.linkedin.com/in/imam-muhammad-diponegoro-7291b5289/">Alamat: Surabaya</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Ikuti Kami</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/im_dipo">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/im_dipo">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/im_dipo">Instagram</a></li>
+                        <li><a href="https://www.instagram.com/im_dipo">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; Tugas Imam Muhammad Diponegoro</p>
+            </div>
+        </div>
+    </footer>
+    <script src="Frontend/script/main.js"></script>
+</body>
+</html>
